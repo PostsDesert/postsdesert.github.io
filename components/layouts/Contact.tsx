@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from '../../Styles/Contact.module.css'; // Import the CSS module
+import Styles from '../../styles/Contact.module.css'; // Import the CSS module
 import Button from '../Button';
 import links from '../../globals/links';
 import SectionHeader from '../SectionHeader';
