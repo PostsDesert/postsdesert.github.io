@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>Griffith Baker</title>
         <meta name="description" content="Portfolio Website" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
