@@ -56,7 +56,7 @@ const Projects = () => {
       <div className={Styles.titleContainer}>
         <SectionHeader title='projects' />
         <div className={Styles.seeMoreGithub}>
-          <a href={links.github} target="_blank" className={Styles.seeMoreGithubText}>See more on Github</a>
+          <a href={links.github} target="_blank" rel='noreferrer' className={Styles.seeMoreGithubText}>See more on Github</a>
           <img src="/GithubVectorBlack.svg" className={Styles.githubIcon} />
         </div>
       </div>
