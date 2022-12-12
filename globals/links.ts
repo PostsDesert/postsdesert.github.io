@@ -9,7 +9,7 @@ const links = {
     contact: '#contact',
     github: 'https://github.com/postsdesert',
     linkedin: 'https://www.linkedin.com/in/griffithbaker',
-    resume: 'https://griffithbaker.com/resume',
+    resume: 'https://server.griffithbaker.com/resume',
     email: 'mailto:griffithmbaker@gmail.com',
 }
 
