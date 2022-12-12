@@ -1,42 +1,24 @@
 {
-  "name": "griffith-s-portfolio",
-  "version": "1.0.0",
+  "name": "griffiths-portfolio",
+  "version": "0.1.0",
   "private": true,
-  "description": "griffith-s-portfolio",
-  "author": "Griffith Baker",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@mdx-js/react": "^2.1.5",
-    "@vanilla-extract/babel-plugin": "^1.2.0",
-    "@vanilla-extract/css": "^1.9.2",
-    "@vanilla-extract/webpack-plugin": "^2.2.0",
-    "gatsby": "^5.0.0",
-    "gatsby-plugin-image": "^3.0.0",
-    "gatsby-plugin-mdx": "^5.0.0",
-    "gatsby-plugin-sharp": "^5.0.0",
-    "gatsby-plugin-sitemap": "^6.0.0",
-    "gatsby-plugin-vanilla-extract": "^3.0.1",
-    "gatsby-source-filesystem": "^5.0.0",
-    "gatsby-transformer-sharp": "^5.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "imagemin-optipng": "^8.0.0",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9",
-    "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.8",
-    "gh-pages": "^4.0.0",
-    "typescript": "^4.8.4"
+    "@types/node": "18.11.13",
+    "@types/react": "18.0.26",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "typescript": "4.9.4"
   }
 }

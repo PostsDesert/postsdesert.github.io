@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: right;
+    background-color: #fff;
+    gap: 1.7em;
+    padding: 0 2rem;
+  }
+  
+  .menuItem {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+
+  }
+  
+  .menuItem:hover {
+    /* color: #0069d9; */
+    text-decoration: underline;
+  }
+
+  .hashtagAccent {
+    display:inline-block;
+    color: #C778DD;
+  }
+
+  @media (max-width: 500px) {
+    .navbar {
+      justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    gap: 5vw;
+  }
+}
+  

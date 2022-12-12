@@ -1,0 +1,11 @@
+.title {
+    font-size: 3.5em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.hashtagAccent {
+    display:inline-block;
+    color: #C778DD;
+    font-weight: 300;
+}

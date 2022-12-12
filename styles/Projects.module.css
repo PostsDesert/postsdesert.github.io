@@ -1,0 +1,21 @@
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.seeMoreGithub {
+    margin-bottom: .7em;
+    text-decoration: underline;
+}
+
+.githubIcon {
+    height: 1.2em;
+    margin-left: .5em;
+}
