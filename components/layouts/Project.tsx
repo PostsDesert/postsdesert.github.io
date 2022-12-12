@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from '../../Styles/Project.module.css'; // Import the CSS module
+import Styles from '../../styles/Project.module.css'; // Import the CSS module
 import Button from '../Button';
 
 const Project = ({ title, subtitle, description, image, button, index }) => {
