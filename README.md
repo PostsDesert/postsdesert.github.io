@@ -1,5 +1,5 @@
-# Griffith's Portfolio
+## Griffith's Portfolio
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Based on a Minimal Jekyll theme for GitHub Pages [1].
 
-Designed using Figma.
+[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)

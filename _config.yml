@@ -1,0 +1,19 @@
+title: Griffith Baker # your name (or website title) here
+logo: "/images/headshot.jpg?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  <br>
+  Computer Science at North Carolina State University. Previously interned at Bandwidth and InStryde.
+  <br><br>
+  Currently seeking a full-time software engineering position starting in June 2024. Interested in projects involving backend development, machine learning, and/or data science.
+  <br><br>
+  <a href="https://www.linkedin.com/in/griffithbaker/">View my LinkedIn Profile</a> 
+  <br><br>
+  <a href="https://github.com/PostsDesert">View my GitHub Profile</a> 
+  <br><br>
+  <a href="https://server.griffithbaker.com/resume">View my Resume</a> 
+  
+remote_theme: pages-themes/minimal@v0.2.0
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+
+colors:
+  crimson: '#900C3F'
