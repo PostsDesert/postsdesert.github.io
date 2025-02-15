@@ -22,7 +22,7 @@ Devised and executed a precise and scalable strategy for extracting data points 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Google_Cloud-white?logo=google-cloud)](#) [![](https://img.shields.io/badge/Firebase-white?logo=firebase)](#) [![](https://img.shields.io/badge/kubernetes-white?logo=kubernetes)](#) [![](https://img.shields.io/badge/NumPy-white?logo=numpy&logoColor=013243)](#)
 
-[Try the Product](https://www.instryde.com)
+[Try the Product](https://getinstryde.com)
 
 ---
 
