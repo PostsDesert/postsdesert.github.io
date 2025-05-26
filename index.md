@@ -2,6 +2,16 @@
 
 ---
 
+### Telegram Daily Notification Bot
+
+A Telegram bot written in Go that sends daily motivational blurbs from a predefined list. The bot cycles through the blurbs and sends one each day at a scheduled time.
+
+[![](https://img.shields.io/badge/Go-white?logo=go&logoColor=00ADD8)](#) [![](https://img.shields.io/badge/Docker-white?logo=docker&logoColor=2496ED)](#)
+
+[View code on Github](https://github.com/PostsDesert/TelegramDailyNotification)
+
+---
+
 ### Improving Netflix Recommendations Using Ensemble Models and Web Scraping
 
 Developed a content/collaborative filtering recommendation system using PyTorch with web scraped metadata from IMDB, achieving significant RMSE reduction (69%) compared to the Netflix Prize winning algorithm (Belkor).
