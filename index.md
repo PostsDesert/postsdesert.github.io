@@ -4,7 +4,8 @@
 
 ### Wholemeal – Meal Combo Generator
 
-Wholemeal is a fun SvelteKit app that helps you discover unique meal combinations, making meal planning easy and ensuring you get your daily veggies. Spin the slot machine to generate combos containing a protein, carb, and veggie, save your favorites, and add your own foods. Swipe and keyboard gestures make navigation quick and intuitive.
+I build Wholemeal because I wasn't eating enough veggies and wanted a fun way to decide what to cook.
+Spin the slot machine to generate combos containing a protein, carb, and veggie, save your favorites, and add your own foods. Swipe and keyboard gestures make navigation quick and intuitive.
 
 {:refdef: style="text-align: center;"}
 <video
