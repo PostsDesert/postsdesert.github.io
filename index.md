@@ -7,7 +7,35 @@
 Wholemeal is a fun SvelteKit app that helps you discover unique meal combinations, making meal planning easy and ensuring you get your daily veggies. Spin the slot machine to generate combos containing a protein, carb, and veggie, save your favorites, and add your own foods. Swipe and keyboard gestures make navigation quick and intuitive.
 
 {:refdef: style="text-align: center;"}
-<img width="30%" style="text-align: center" src="images/wholemeal_demo.png?raw=true" />
+<video
+  id="demoVideo"
+  width="30%"
+  muted
+  loop
+  preload="metadata"
+  poster="images/wholemeal_demo.png"
+  style="display:block; text-align: center; margin:auto; border-radius:8px;">
+  <source src="images/wholemeal_demo.webm" type="video/webm">
+  <source src="images/wholemeal_demo.mp4" type="video/mp4">
+</video>
+
+<script>
+  const video = document.getElementById("demoVideo");
+
+  video.addEventListener("mouseenter", () => {
+    video.play();
+  });
+
+  video.addEventListener("mouseleave", () => {
+    video.pause();
+    video.currentTime = 0; // reset to beginning
+  });
+
+  // Show controls only on mobile
+  if (/Mobi|Android/i.test(navigator.userAgent)) {
+    video.setAttribute('controls', '');
+  }
+</script>
 {: refdef}
 
 [![](https://img.shields.io/badge/Svelte-white?logo=svelte&logoColor=FF3E00)](#)
@@ -15,8 +43,8 @@ Wholemeal is a fun SvelteKit app that helps you discover unique meal combination
 [![](https://img.shields.io/badge/CSS-white?logo=css&logoColor=1572B6)](#)
 [![](https://img.shields.io/badge/HTML-white?logo=html5&logoColor=E34F26)](#)
 
-[Try it out!](https://wholemeal.griffithbaker.com)
-[View code on GitHub](https://github.com/PostsDesert/wholemeal}
+[Try it out!](https://wholemeal.griffithbaker.com)<br>
+[View code on GitHub](https://github.com/PostsDesert/wholemeal)
 
 ---
 
