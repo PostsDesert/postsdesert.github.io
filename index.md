@@ -7,14 +7,13 @@
 I build Wholemeal because I wasn't eating enough veggies and wanted a fun way to decide what to cook.
 Spin the slot machine to generate combos containing a protein, carb, and veggie, save your favorites, and add your own foods. Swipe and keyboard gestures make navigation quick and intuitive.
 
-{:refdef: style="text-align: center;"}
 <video
   id="demoVideo"
   width="30%"
   muted
   loop
   preload="metadata"
-  poster="images/wholemeal_demo.png"
+  poster="images/wholemeal_demo.jpeg"
   style="display:block; text-align: center; margin:auto; border-radius:8px;">
   <source src="images/wholemeal_demo.webm" type="video/webm">
   <source src="images/wholemeal_demo.mp4" type="video/mp4">
@@ -37,7 +36,7 @@ Spin the slot machine to generate combos containing a protein, carb, and veggie,
     video.setAttribute('controls', '');
   }
 </script>
-{: refdef}
+<br>
 
 [![](https://img.shields.io/badge/Svelte-white?logo=svelte&logoColor=FF3E00)](#)
 [![](https://img.shields.io/badge/JavaScript-white?logo=javascript&logoColor=F7DF1E)](#)
