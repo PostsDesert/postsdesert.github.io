@@ -2,6 +2,24 @@
 
 ---
 
+### Wholemeal – Meal Combo Generator
+
+Wholemeal is a fun SvelteKit app that helps you discover unique meal combinations, making meal planning easy and ensuring you get your daily veggies. Spin the slot machine to generate combos containing a protein, carb, and veggie, save your favorites, and add your own foods. Swipe and keyboard gestures make navigation quick and intuitive.
+
+{:refdef: style="text-align: center;"}
+<img width="30%" style="text-align: center" src="images/wholemeal_demo.png?raw=true" />
+{: refdef}
+
+[![](https://img.shields.io/badge/Svelte-white?logo=svelte&logoColor=FF3E00)](#)
+[![](https://img.shields.io/badge/JavaScript-white?logo=javascript&logoColor=F7DF1E)](#)
+[![](https://img.shields.io/badge/CSS-white?logo=css&logoColor=1572B6)](#)
+[![](https://img.shields.io/badge/HTML-white?logo=html5&logoColor=E34F26)](#)
+
+[Try it out!](https://wholemeal.griffithbaker.com)
+[View code on GitHub](https://github.com/PostsDesert/wholemeal}
+
+---
+
 ### Telegram Daily Notification Bot
 
 A Telegram bot written in Go that sends daily motivational blurbs from a predefined list. The bot cycles through the blurbs and sends one each day at a scheduled time.
